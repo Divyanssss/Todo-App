@@ -1,0 +1,29 @@
+:root {
+    --background-color: #0d0d0d;
+    --text-color: #e0e0e0;
+    --header-background-color: #1a1a1a;
+    --accent-color: #ff00ff;
+    --todo-container-background: #1a1a1a;
+    --todo-item-background: #262626;
+    --button-background: #ff00ff;
+    --button-hover-background: #e600e6;
+    --input-background: #262626;
+    --placeholder-color: #b3b3b3;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+.container{
+ display: flex;
+ align-items: center; 
+ flex-direction: column;
+ justify-content: center;
+ margin-top: 120px;
+}
