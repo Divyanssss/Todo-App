@@ -14,20 +14,21 @@
             <div class="details">
 <h1>Todo App</h1>
 <p>do all of your tasks</p>
-<div id="progessbar">
+<div id="progressbar">
     <div id="progress"></div>
 </div>
             </div>
             <div class="statsnumbers">
-            <p id="numbers">2/3</p>
+            <p id="numbers">0</p>
 
             </div>
         </div>
         <form action="">
-            <input type="text" placeholder="Add a new task">
-            <button type="submit"></button>
+            <input id="inp" type="text" placeholder="Add a new task">
+            <button type="button" onclick="addtodo()">+</button>
         </form>
-        <ul class="tasklist"></ul>
+        <ul id="tasklist"></ul>
+        <ul id="Donelist"></ul>
     </div>
     </main>
   
